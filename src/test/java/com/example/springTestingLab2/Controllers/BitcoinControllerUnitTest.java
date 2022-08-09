@@ -17,8 +17,8 @@ class BitcoinControllerUnitTest {
         BitcoinService bitcoinService = Mockito.mock(BitcoinService.class);
         BigDecimal bitcoinPrice_expected = BigDecimal.valueOf(23080.8009588567122947);
         BitcoinController bitcoinController = new BitcoinController(bitcoinService);
-        when(bitcoinService.getBitcoinPrice()).thenReturn(bitcoinPrice_expected);
-        BigDecimal bitcoinPrice_actual = bitcoinController.getBitcoin();
+        when(bitcoinService.getBitcoinPrice("bitcoin")).thenReturn(bitcoinPrice_expected);
+        BigDecimal bitcoinPrice_actual = bitcoinController.getBitcoin("bitcoin");
         assertEquals(bitcoinPrice_expected, bitcoinPrice_actual);
     }
 
