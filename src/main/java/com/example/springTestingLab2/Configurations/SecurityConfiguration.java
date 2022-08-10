@@ -11,26 +11,40 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+import org.springframework.security.web.SecurityFilterChain;
 
 import static javax.management.Query.and;
 
 @Configuration
 @EnableWebSecurity
-public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
+public class SecurityConfiguration  {
 
-    @Override
-    protected void configure(HttpSecurity http) throws Exception {
+    @Bean
+    public SecurityFilterChain configure(HttpSecurity http) throws Exception {
+//        http.authorizeRequests()
+//                .antMatchers("/getPrice")
+//                .hasAuthority("admin");
+
         http.authorizeRequests()
                 .antMatchers("/getPrice")
-                .hasAuthority("admin");
-
-        http.authorizeRequests()
-                .anyRequest()
                 .authenticated()
                 .and()
                 .formLogin()
                 .and() // add to the chain
                 .logout(); // request a logout form
+
+
+        http.authorizeRequests()
+                .anyRequest()
+                .authenticated()
+                .and()
+                .oauth2Login();
+
+
+
+
+        return http.build();
+
     }
 
     @Bean
