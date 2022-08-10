@@ -1,6 +1,7 @@
 package com.example.springTestingLab2.Controllers;
 
-import com.example.springTestingLab2.Services.BitcoinService;
+
+import com.example.springTestingLab2.Services.CoinService;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,21 +13,20 @@ import org.springframework.test.web.servlet.MockMvc;
 import java.math.BigDecimal;
 
 import static org.hamcrest.Matchers.containsString;
-import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@WebMvcTest(BitcoinController.class)
+@WebMvcTest(CoinController.class)
 
-class BitcoinControllerIntegrationTest {
+class CoinControllerIntegrationTest {
 
     @Autowired
     private MockMvc mockMvc;
 
     @MockBean
-    private BitcoinService bitcoinService;
+    private CoinService coinService;
 
     @WithMockUser(username = "fakeuser", authorities = "admin") // added authorities to our mock user
     @Test
@@ -34,7 +34,7 @@ class BitcoinControllerIntegrationTest {
 
         BigDecimal bitcoinPrice = BigDecimal.valueOf(22982.4325434);
 
-        Mockito.when(bitcoinService.getBitcoinPrice("bitcoin")).thenReturn(bitcoinPrice);
+        Mockito.when(coinService.getCoinPrice("bitcoin")).thenReturn(bitcoinPrice);
 
         mockMvc.perform(get("/getPrice/bitcoin"))
                 .andDo(print())
