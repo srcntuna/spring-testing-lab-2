@@ -1,0 +1,130 @@
+[INF] --- [THREAD:main] c.e.s.SpringTestingLab2ApplicationTests 
+ 		 Starting SpringTestingLab2ApplicationTests using Java 18.0.1.1 on Sabris-MBP with PID 32556 (started by sabrisercantuna in /Users/sabrisercantuna/Desktop/Java-Course/Week8/Day2/spring-security-lab-2/springTestingLab2)
+[INF] --- [THREAD:main] c.e.s.SpringTestingLab2ApplicationTests 
+ 		 Starting SpringTestingLab2ApplicationTests using Java 18.0.1.1 on Sabris-MBP with PID 32556 (started by sabrisercantuna in /Users/sabrisercantuna/Desktop/Java-Course/Week8/Day2/spring-security-lab-2/springTestingLab2)
+[DEB] --- [THREAD:main] c.e.s.SpringTestingLab2ApplicationTests 
+ 		 Running with Spring Boot v2.7.2, Spring v5.3.22
+[DEB] --- [THREAD:main] c.e.s.SpringTestingLab2ApplicationTests 
+ 		 Running with Spring Boot v2.7.2, Spring v5.3.22
+[INF] --- [THREAD:main] c.e.s.SpringTestingLab2ApplicationTests 
+ 		 No active profile set, falling back to 1 default profile: "default"
+[INF] --- [THREAD:main] c.e.s.SpringTestingLab2ApplicationTests 
+ 		 No active profile set, falling back to 1 default profile: "default"
+[TRA] --- [THREAD:main] c.e.s.C.SecurityConfiguration           
+ 		 in userDetailsService
+[TRA] --- [THREAD:main] c.e.s.C.SecurityConfiguration           
+ 		 in userDetailsService
+[TRA] --- [THREAD:main] c.e.s.C.SecurityConfiguration           
+ 		 in passwordEncoder
+[TRA] --- [THREAD:main] c.e.s.C.SecurityConfiguration           
+ 		 in passwordEncoder
+[TRA] --- [THREAD:main] c.e.s.C.SecurityConfiguration           
+ 		 creating passwordEncoder
+[TRA] --- [THREAD:main] c.e.s.C.SecurityConfiguration           
+ 		 creating passwordEncoder
+[TRA] --- [THREAD:main] c.e.s.C.SecurityConfiguration           
+ 		 out userDetailService
+[TRA] --- [THREAD:main] c.e.s.C.SecurityConfiguration           
+ 		 out userDetailService
+[TRA] --- [THREAD:main] c.e.s.C.SecurityConfiguration           
+ 		 in SecurityFilterChain
+[TRA] --- [THREAD:main] c.e.s.C.SecurityConfiguration           
+ 		 in SecurityFilterChain
+[TRA] --- [THREAD:main] c.e.s.C.SecurityConfiguration           
+ 		 out SecurityFilterChain
+[TRA] --- [THREAD:main] c.e.s.C.SecurityConfiguration           
+ 		 out SecurityFilterChain
+[INF] --- [THREAD:main] o.s.s.web.DefaultSecurityFilterChain    
+ 		 Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2596d7f4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42a0501e, org.springframework.security.web.context.SecurityContextPersistenceFilter@557a84fe, org.springframework.security.web.header.HeaderWriterFilter@67de7a99, org.springframework.security.web.csrf.CsrfFilter@77c233af, org.springframework.security.web.authentication.logout.LogoutFilter@737db7f8, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@2513a118, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@6fc1020a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3d19d85, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@d5556bf, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6aa3bfc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43e065f2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@423c5404, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e4599c0, org.springframework.security.web.session.SessionManagementFilter@54067fdc, org.springframework.security.web.access.ExceptionTranslationFilter@2f0bfe17, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@60c73e58]
+[INF] --- [THREAD:main] o.s.b.a.w.s.WelcomePageHandlerMapping   
+ 		 Adding welcome page: class path resource [static/index.html]
+[INF] --- [THREAD:main] c.e.s.SpringTestingLab2ApplicationTests 
+ 		 Started SpringTestingLab2ApplicationTests in 2.739 seconds (JVM running for 4.035)
+[INF] --- [THREAD:main] c.e.s.SpringTestingLab2ApplicationTests 
+ 		 Started SpringTestingLab2ApplicationTests in 2.739 seconds (JVM running for 4.035)
+[TRA] --- [THREAD:main] c.e.s.Controllers.CoinController        
+ 		 getting Coin Price
+[TRA] --- [THREAD:main] c.e.s.Controllers.CoinController        
+ 		 getting Coin Price
+[TRA] --- [THREAD:main] c.e.s.Controllers.CoinController        
+ 		 returning Coin Price
+[TRA] --- [THREAD:main] c.e.s.Controllers.CoinController        
+ 		 returning Coin Price
+[TRA] --- [THREAD:main] c.e.s.Services.CoinService              
+ 		 in Bitcoin Service
+[TRA] --- [THREAD:main] c.e.s.Services.CoinService              
+ 		 in Bitcoin Service
+[INF] --- [THREAD:main] c.e.s.Services.CoinService              
+ 		 fetching the coin price
+[INF] --- [THREAD:main] c.e.s.Services.CoinService              
+ 		 fetching the coin price
+[INF] --- [THREAD:main] c.e.s.Services.CoinService              
+ 		 fetched the price of Bitcoin from api....
+[INF] --- [THREAD:main] c.e.s.Services.CoinService              
+ 		 fetched the price of Bitcoin from api....
+[TRA] --- [THREAD:main] c.e.s.Services.CoinService              
+ 		 leaving getCoinPrice method...
+[TRA] --- [THREAD:main] c.e.s.Services.CoinService              
+ 		 leaving getCoinPrice method...
+[TRA] --- [THREAD:main] c.e.s.Services.CoinService              
+ 		 in Bitcoin Service
+[TRA] --- [THREAD:main] c.e.s.Services.CoinService              
+ 		 in Bitcoin Service
+[INF] --- [THREAD:main] c.e.s.Services.CoinService              
+ 		 fetching the coin price
+[INF] --- [THREAD:main] c.e.s.Services.CoinService              
+ 		 fetching the coin price
+[INF] --- [THREAD:main] c.e.s.Services.CoinService              
+ 		 fetched the price of Bitcoin from api....
+[INF] --- [THREAD:main] c.e.s.Services.CoinService              
+ 		 fetched the price of Bitcoin from api....
+[TRA] --- [THREAD:main] c.e.s.Services.CoinService              
+ 		 leaving getCoinPrice method...
+[TRA] --- [THREAD:main] c.e.s.Services.CoinService              
+ 		 leaving getCoinPrice method...
+[INF] --- [THREAD:main] .b.t.a.w.s.WebMvcTestContextBootstrapper
+ 		 Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.springTestingLab2.Controllers.CoinControllerIntegrationTest], using SpringBootContextLoader
+[INF] --- [THREAD:main] o.s.t.c.support.AbstractContextLoader   
+ 		 Could not detect default resource locations for test class [com.example.springTestingLab2.Controllers.CoinControllerIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INF] --- [THREAD:main] t.c.s.AnnotationConfigContextLoaderUtils
+ 		 Could not detect default configuration classes for test class [com.example.springTestingLab2.Controllers.CoinControllerIntegrationTest]: CoinControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INF] --- [THREAD:main] .b.t.c.SpringBootTestContextBootstrapper
+ 		 Found @SpringBootConfiguration com.example.springTestingLab2.SpringTestingLab2Application for test class com.example.springTestingLab2.Controllers.CoinControllerIntegrationTest
+[INF] --- [THREAD:main] .b.t.a.w.s.WebMvcTestContextBootstrapper
+ 		 Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+[INF] --- [THREAD:main] .b.t.a.w.s.WebMvcTestContextBootstrapper
+ 		 Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3f1d6a13, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7cbf4f8c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@55c46ec1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3eff6846, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6ae6d078, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6ca33187, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@1a67f8b4, org.springframework.test.context.event.EventPublishingTestExecutionListener@5f1f0ee6, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@326706d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76fc5687, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@53fbb2b4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7434ee13, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@44a14de0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@50fd739d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5e1d1524]
+[INF] --- [THREAD:main] c.e.s.C.CoinControllerIntegrationTest   
+ 		 Starting CoinControllerIntegrationTest using Java 18.0.1.1 on Sabris-MBP with PID 32556 (started by sabrisercantuna in /Users/sabrisercantuna/Desktop/Java-Course/Week8/Day2/spring-security-lab-2/springTestingLab2)
+[INF] --- [THREAD:main] c.e.s.C.CoinControllerIntegrationTest   
+ 		 Starting CoinControllerIntegrationTest using Java 18.0.1.1 on Sabris-MBP with PID 32556 (started by sabrisercantuna in /Users/sabrisercantuna/Desktop/Java-Course/Week8/Day2/spring-security-lab-2/springTestingLab2)
+[DEB] --- [THREAD:main] c.e.s.C.CoinControllerIntegrationTest   
+ 		 Running with Spring Boot v2.7.2, Spring v5.3.22
+[DEB] --- [THREAD:main] c.e.s.C.CoinControllerIntegrationTest   
+ 		 Running with Spring Boot v2.7.2, Spring v5.3.22
+[INF] --- [THREAD:main] c.e.s.C.CoinControllerIntegrationTest   
+ 		 No active profile set, falling back to 1 default profile: "default"
+[INF] --- [THREAD:main] c.e.s.C.CoinControllerIntegrationTest   
+ 		 No active profile set, falling back to 1 default profile: "default"
+[INF] --- [THREAD:main] o.s.b.a.w.s.WelcomePageHandlerMapping   
+ 		 Adding welcome page: class path resource [static/index.html]
+[INF] --- [THREAD:main] o.s.s.web.DefaultSecurityFilterChain    
+ 		 Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7538cfe6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f4dd016, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f3361e9, org.springframework.security.web.header.HeaderWriterFilter@7ebc5be6, org.springframework.security.web.csrf.CsrfFilter@75959b0c, org.springframework.security.web.authentication.logout.LogoutFilter@3eb0fd88, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@1c2cdc67, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@21d8da75, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@4c28f97e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6ab50d1c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@396f2724, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@eebc0db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1214c98b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b465fa9, org.springframework.security.oauth2.client.web.OAuth2AuthorizationCodeGrantFilter@4cadd4d4, org.springframework.security.web.session.SessionManagementFilter@4627dfda, org.springframework.security.web.access.ExceptionTranslationFilter@355493bf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@778197c0]
+[INF] --- [THREAD:main] o.s.b.t.m.w.SpringBootMockServletContext
+ 		 Initializing Spring TestDispatcherServlet ''
+[INF] --- [THREAD:main] o.s.t.web.servlet.TestDispatcherServlet 
+ 		 Initializing Servlet ''
+[INF] --- [THREAD:main] o.s.t.web.servlet.TestDispatcherServlet 
+ 		 Completed initialization in 1 ms
+[INF] --- [THREAD:main] c.e.s.C.CoinControllerIntegrationTest   
+ 		 Started CoinControllerIntegrationTest in 0.661 seconds (JVM running for 5.951)
+[INF] --- [THREAD:main] c.e.s.C.CoinControllerIntegrationTest   
+ 		 Started CoinControllerIntegrationTest in 0.661 seconds (JVM running for 5.951)
+[TRA] --- [THREAD:main] c.e.s.Controllers.CoinController        
+ 		 getting Coin Price
+[TRA] --- [THREAD:main] c.e.s.Controllers.CoinController        
+ 		 getting Coin Price
+[TRA] --- [THREAD:main] c.e.s.Controllers.CoinController        
+ 		 returning Coin Price
+[TRA] --- [THREAD:main] c.e.s.Controllers.CoinController        
+ 		 returning Coin Price
